@@ -63,6 +63,7 @@ jobs:
         # queries: security-extended,security-and-quality
         queries: Lslightly/codeql-queries/nonPtrAssignToInterface.ql@main
         # packs: trailofbits/go-queries
+        external-repository-token: ${{ secrets.ACCESS_TOKEN }}
 
       
     # Autobuild attempts to build any compiled languages (C/C++, C#, Go, Java, or Swift).
